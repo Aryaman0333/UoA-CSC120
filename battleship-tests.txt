@@ -1,0 +1,43 @@
+#Aryaman Mehra
+#battleship-tests.txt
+
+# Test 1 (normal)
+# This test checks if the program correctly identifies a hit on the ship
+5 5
+5 5
+# End of test
+
+# Test 2 (normal)
+# This test checks if the program correctly identifies a miss on the grid
+0 0
+1 1
+# End of test
+
+# Test 3 (error)
+# This test checks if the program correctly handles out-of-bounds guesses
+-1 5
+5 10
+# End of test
+
+# Test 4 (error)
+# This test checks if the program correctly handles invalid ship placements
+A 1 1 5 5
+B 1 1 4 5
+S 1 1 3 3
+D 1 1 3 4
+P 1 1 2 3
+# End of test
+
+# Test 5 (normal)
+# This test checks if the program correctly identifies when all ships are sunk
+0 0
+0 1
+1 0
+1 1
+2 0
+2 1
+3 0
+3 1
+4 0
+4 1
+# End of test
